@@ -32,7 +32,7 @@
     wrapperClass: 'bx-wrapper',
 
     // TOUCH
-    touchEnabled: true,
+    touchEnabled: (navigator.maxTouchPoints > 0),
     swipeThreshold: 50,
     oneToOneTouch: true,
     preventDefaultSwipeX: true,
